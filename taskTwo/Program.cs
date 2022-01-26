@@ -35,7 +35,8 @@ namespace taskTwo
 
             averageGrade = averageGrade/ grades.Length;
 
-            Console.WriteLine("Your average grade for this semester was {C2}", averageGrade);
+            // print out average grade
+            Console.WriteLine("Your average grade for this semester was {0}", averageGrade);
 
             Console.ReadKey();
         }
