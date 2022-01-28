@@ -44,7 +44,7 @@ namespace taskOne
         const double standardMarkup = .15;
         const double bulkMarkup = .125;
 
-        static void Main(String[] args)
+        static void Main(string[] args)
         {
 
             // constant variable ~ not class wide

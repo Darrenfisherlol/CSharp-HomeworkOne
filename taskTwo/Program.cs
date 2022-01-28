@@ -22,9 +22,10 @@ namespace taskTwo
 
         static void Main(String[] args)
         {
-
+            // array to hold the grades
             double[] grades = new double[3];
 
+            // for loop to iterate 3x and grab grades from the user
             double averageGrade = 0;
             for (int x = 0; x < grades.Length; x++)
             {
@@ -33,10 +34,11 @@ namespace taskTwo
                 averageGrade = averageGrade + grades[x];
             }
 
+            // get avg grades 
             averageGrade = averageGrade/ grades.Length;
 
             // print out average grade
-            Console.WriteLine("Your average grade for this semester was {0}", averageGrade);
+            Console.WriteLine("Your average grade for this semester was {0:F2}", averageGrade);
 
             Console.ReadKey();
         }

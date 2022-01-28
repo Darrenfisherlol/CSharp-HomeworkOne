@@ -52,7 +52,7 @@ namespace taskFour
             int factorialAnswer = Factorial(factorialNum);
 
             // print out factorial and the solution
-            Console.WriteLine("The factorial of " + factorialNum + " is: " + factorialAnswer);
+            Console.WriteLine("The factorial of " + factorialNum.ToString("F2") + " is: " + factorialAnswer.ToString("F2"));
 
             Console.ReadKey();
         }

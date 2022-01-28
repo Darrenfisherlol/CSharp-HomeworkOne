@@ -67,7 +67,8 @@ namespace hwOneMacVersion
             // calculate average & use the required # of values entered variable
             averageGrade = averageGrade / numOfEnteredValues;
 
-            Console.WriteLine("Hey student, your average grade is " + averageGrade);
+            // outputs grades avg
+            Console.WriteLine("Hey student, your average grade is " + averageGrade.ToString("F2"));
 
         }
     }
